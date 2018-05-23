@@ -11,9 +11,6 @@ setup(
     keywords=['jenkins'],
     install_requires=['python-jenkins>=0.4.16'],
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'Intended Audience :: Developers',
-        'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
