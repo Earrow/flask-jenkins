@@ -24,3 +24,6 @@ class Jenkins:
 
         self._server = jenkins.Jenkins(
             'http://{}'.format(host), username=username, password=password)
+
+    def __getattr__(self, item):
+        return getattr(self._server, item)
